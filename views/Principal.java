@@ -24,6 +24,8 @@ public class Principal {
                     cadastrarAutomovel.cadastrar();
                     break;
                 case 2:
+                    EntradasAutomovel entradasAutomovel = new EntradasAutomovel();
+                    entradasAutomovel.entrada();
                     break;
                 case 3:
                     break;
